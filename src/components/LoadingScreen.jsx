@@ -60,7 +60,7 @@ export const LoadingScreen = ({onComplete}) => {
     // høyden til 100% av foreldreelementet, setter skygge på den, også en custom animate-loading-bar, se i index.css
     return (
         <div className="fixed inset-0 z-50 bg-black text-gray-100 flex flex-col items-center justify-center">
-            <div className="mb-4 text-4xl sm:text-2xl font-mono font-bold">
+            <div className="mb-4 text-4xl sm:text-1xl font-mono font-bold">
                 {text}<span>|</span>
                 </div> 
 
