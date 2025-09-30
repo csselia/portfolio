@@ -1,7 +1,5 @@
 import pfp from '../../assets/pfp.webp';
 
-import { RevealOnScroll } from "../RevealOnScroll";
-
 export const About = ()=>{
 
     const frontendSkills = ["HTML", "CSS", "React", "Javascript", "TailwindCSS", "UX-design"];
@@ -14,7 +12,6 @@ export const About = ()=>{
 
 
     return <section id="about" className="min-h-screen flex items-center justify-center py-20">
-        <RevealOnScroll>
         <div className="max-w-3xl mx-auto px-4">
             <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-violet-600 to-pink-500
             bg-clip-text text-transparent
@@ -132,11 +129,10 @@ export const About = ()=>{
                 <h3 className="text-xl font-bold mb-4 text-[#fec588]">Nøkkelkvalifikasjoner</h3>
                 <ul className="text-gray-300 space-y-2">
                    
-                   <li>Flere års erfaring med kundeveiledning.</li>
+                   <li>Flere års erfaring med kundeservice.</li>
                     <li>Kreativ og løsningsorientert.</li>
                     <li>Samarbeider bra i team, men jobber også strukturert og selvstendig.</li>
-                       <li>Liker å ta initiativ og sette idéer ut i praksis</li>
-
+                    <li>Liker å ta initiativ og sette idéer ut i praksis</li>
                 </ul>
                 </div>
 
@@ -239,6 +235,5 @@ export const About = ()=>{
 
 
         </div>
-        </RevealOnScroll>
     </section>
 }

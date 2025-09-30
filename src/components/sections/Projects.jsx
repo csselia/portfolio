@@ -1,5 +1,4 @@
 
-import { RevealOnScroll } from "../RevealOnScroll"
 import afd_1 from '../../assets/afd_1.webp';
 import afd_2 from '../../assets/afd_2.webp';
 import afd_3 from '../../assets/afd_3.webp';
@@ -20,7 +19,6 @@ export const Projects = ()=>{
     return <section id="projects" className="min-h-screen
     flex items-center justify-center py-20">
 
-        <RevealOnScroll>
 
         <div className="max-w-5xl mx-auto px-4">
             <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r  from-violet-600 to-pink-500
@@ -126,6 +124,5 @@ export const Projects = ()=>{
             </div>
 
         </div>
-</RevealOnScroll>
     </section>
 }
