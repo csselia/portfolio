@@ -128,8 +128,8 @@ export const Projects = ()=>{
                         
                   <div className="p-6 rounded-xl border border-white/50 hover:-translate-y-1
                 hover:shadow-[0_2px_8px_rgba(59,130,2246, 0.1)] transition-all">
-                    <h3 className="text-xl font-bold mb-2">Ikoner</h3>
-                    <p className="text-gray-400 mb-4">Utarbeidet forslag på ikoner til et mentolprodukt, samt logo for et bryllup.  
+                    <h3 className="text-xl font-bold mb-2">Logoer</h3>
+                    <p className="text-gray-400 mb-4">Utarbeidet forslag på logoer til et mentolprodukt, samt logo for et bryllup.  
                     </p>
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
