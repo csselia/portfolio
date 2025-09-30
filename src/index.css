@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: "Space Grotesk", sans-serif;
+    background: #0a0a0a;
+    color: #f3f4f6;
+    scroll-behavior: smooth;
+}
+
+
+/*
+Defingerer en animasjon kalt loading
+Beveger et element langs x-aksen, i begynnelsen helt ute til venstre, så lang ut til høyre. Så den beveger seg kontinuerlig fra venstre
+til høyre. Hver runde tar 0.8 sekunder, ease, animasjonen starter sakte, akselerer og stopper sakte
+infinite, animasjonen er uendelig.
+*/
+@layer utilities{
+
+    @keyframes loading{
+        0% {
+            transform: translateX(-100%);
+        }
+        100%{
+            transform: translateX(250%);
+        }
+    }
+
+
+    .animate-loading-bar{
+        animation: loading 0.8s ease infinite;
+    }
+
+
+    .reveal{
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+
+    .reveal.visible{
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+
+
+}
