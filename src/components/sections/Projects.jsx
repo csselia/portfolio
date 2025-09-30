@@ -29,7 +29,7 @@ export const Projects = ()=>{
             <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
               
 
-                  <div className="p-6 rounded-xl border border-white hover:-translate-y-1
+                  <div className="p-6 rounded-xl border border-white/50 hover:-translate-y-1
                 hover:shadow-[0_2px_8px_rgba(59,130,2246, 0.1)] transition-all">
                     <h3 className="text-xl font-bold mb-2">Nettside for S7vende hårstudio</h3>
                     <p className="text-gray-400 mb-4">Praktisk IT-prosjekt (Vår 2025) utført sammen med medstudentene 
@@ -57,7 +57,7 @@ export const Projects = ()=>{
                 </div>
              </div>
 
-                   <div className="p-6 rounded-xl border border-white hover:-translate-y-1
+                   <div className="p-6 rounded-xl border border-white/50 hover:-translate-y-1
                 hover:shadow-[0_2px_8px_rgba(59,130,2246, 0.1)] transition-all">
                     <h3 className="text-xl font-bold mb-2">Android applikasjon</h3>
                     <p className="text-gray-400 mb-4">Regnespill for barn i første klasse. Vil lenke til koden på Github etter sensur. 
@@ -80,7 +80,7 @@ export const Projects = ()=>{
              </div>
 
 
-                  <div className="p-6 rounded-xl border border-white hover:-translate-y-1
+                  <div className="p-6 rounded-xl border border-white/50 hover:-translate-y-1
                 hover:shadow-[0_2px_8px_rgba(59,130,2246, 0.1)] transition-all">
                     <h3 className="text-xl font-bold mb-2">Utvalg av noen illustrasjoner for Apotek For Deg</h3>
                     <p className="text-gray-400 mb-4">Utarbeidet illustrasjoner som skulle virke tiltalende, informative og formidle positivitet. 
