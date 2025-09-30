@@ -32,7 +32,7 @@ Kjører når komponenten mountes, og på nytt hvis onComplete endres
 export const LoadingScreen = ({onComplete}) => {
 
     const[text, setText] = useState("")
-    const fullText = "Henter <Portfolio />";
+    const fullText = "Henter <Portefolje />";
     
     useEffect(()=>{
         let index = 0;
