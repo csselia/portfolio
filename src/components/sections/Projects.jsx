@@ -83,7 +83,7 @@ export const Projects = ()=>{
                   <div className="p-6 rounded-xl border border-white/50 hover:-translate-y-1
                 hover:shadow-[0_2px_8px_rgba(59,130,2246, 0.1)] transition-all">
                     <h3 className="text-xl font-bold mb-2">Utvalg av noen illustrasjoner for Apotek For Deg</h3>
-                    <p className="text-gray-400 mb-4">Utarbeidet illustrasjoner som skulle virke tiltalende, informative og formidle positivitet. 
+                    <p className="text-gray-400 mb-4">Utarbeidet illustrasjoner som skulle være tiltalende, informative og formidle positivitet. 
                     </p>
 
                     <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
