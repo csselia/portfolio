@@ -6,8 +6,6 @@ import afd_4 from '../../assets/afd_4.webp';
 import afd_5 from '../../assets/afd_5.webp';
 import afd_6 from '../../assets/afd_6.webp';
 import afd_7 from '../../assets/afd_7.webp';
-import afd_8 from '../../assets/afd_8.webp';
-import afd_9 from '../../assets/afd_9.webp';
 import afd_10 from '../../assets/afd_10.webp';
 import afd_11 from '../../assets/afd_11.webp';
 import afd_12 from '../../assets/afd_12.webp';
