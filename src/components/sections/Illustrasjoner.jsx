@@ -21,7 +21,7 @@ export const About = ()=>{
             text-center">Om meg</h2>
 
 
-            <img src={pfp} alt="profilbilde" className="w-32 rounded-full mx-auto hover:-translate-y-1 transition"></img>
+            <img src={pfp} alt="profilbilde" className="w-32 rounded-full mx-auto hover:-translate-y-1 transition"/>
 
      
         {/*Når det hovres løftes elementet litt opp, -y 1 flytter elementet litt opp, transition all styrer at alt skal animeres*/}

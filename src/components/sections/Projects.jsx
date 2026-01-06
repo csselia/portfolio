@@ -40,7 +40,7 @@ export const Projects = ()=>{
                         <a href="https://syvendeharstudio.no/"  className="text-[#e73aa7] hover:text-[#fec588]">S7vende hårstudio</a>
                         
                         <div className="grid grid-cols-1 mt-7 gap-6">
-                        <img src={afd_14} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"></img>
+                        <img src={afd_14} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
                         </div>
                     </p>
                     
@@ -64,7 +64,7 @@ export const Projects = ()=>{
                     <p className="text-gray-400 mb-4">Regnespill for barn i første klasse. Vil lenke til koden på Github etter sensur. 
                     </p>
                      <div className="grid grid-cols-1 mt-7 gap-6">
-                        <img src={afd_15} alt="profilbilde" className="w-50 rounded-2xl mx-auto hover:-translate-y-1 transition"></img>
+                        <img src={afd_15} alt="profilbilde" className="w-50 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
                         </div>
            
                 <div className="p-6">
@@ -88,22 +88,22 @@ export const Projects = ()=>{
                     </p>
 
                     <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
-                        <img src={afd_1} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"></img>
-                        <img src={afd_3} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"></img>
-                           <img src={afd_2} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"></img>
-                              <img src={afd_4} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"></img>
-                                <img src={afd_5} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"></img>
-                                <img src={afd_7} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"></img>
-                                <img src={afd_6} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"></img>
-                                <img src={afd_11} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"></img>
-                                <img src={afd_12} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"></img>
+                        <img src={afd_1} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
+                        <img src={afd_3} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
+                           <img src={afd_2} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
+                              <img src={afd_4} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
+                                <img src={afd_5} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
+                                <img src={afd_7} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
+                                <img src={afd_6} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
+                                <img src={afd_11} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
+                                <img src={afd_12} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
                             
                         </div>
 
 
                         <div className="grid grid-cols-2 mt-7 gap-6">
-                        <img src={afd_10} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"></img>
-                          <img src={afd_13} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"></img>
+                        <img src={afd_10} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
+                          <img src={afd_13} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
                      
  
                         </div>
@@ -129,9 +129,9 @@ export const Projects = ()=>{
                     </p>
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                        <img src={afd_16} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"></img>
-                        <img src={afd_17} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"></img>
-                           <img src={afd_18} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"></img>
+                        <img src={afd_16} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
+                        <img src={afd_17} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
+                           <img src={afd_18} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
                         </div>
 
 
