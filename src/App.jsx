@@ -14,7 +14,7 @@ import { Contact } from "./components/sections/Contact";
 // når isLoaded ikke er true er opacity 0
 // når isLoaded er true blir opacity 100, og hovedinnholdet blir synlig
 
-// Navbar og MobileMenu får menuOpen som props, slik at d ekan åpne og lukke menyen
+// Navbar og MobileMenu får menuOpen som props, slik at de kan åpne og lukke menyen
 
 
 

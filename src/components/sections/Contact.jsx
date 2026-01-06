@@ -20,6 +20,8 @@ export const Contact = () =>{
                     </li>
                     <li><a href="https://www.linkedin.com/in/cecilia-d-274a7a1aa?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BHByIfEeqQeieTHjQNvq9pA%3D%3D" className="font-bold">LinkedIn</a>
                     </li>
+                      <li><a href="https://github.com/csselia" className="font-bold">Github</a>
+                    </li>
                 </ul>
 
             </div>
