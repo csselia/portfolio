@@ -104,8 +104,6 @@ export const Projects = ()=>{
 
 
                         <div className="grid grid-cols-2 mt-7 gap-6">
-                        <img src={afd_8} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"></img>
-                        <img src={afd_9} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"></img>
                         <img src={afd_10} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"></img>
                           <img src={afd_13} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"></img>
                      
