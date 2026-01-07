@@ -13,6 +13,11 @@ import afd_12 from '../../assets/afd_12.webp';
 import afd_13 from '../../assets/afd_13.webp';
 import afd_14 from '../../assets/afd_14.webp';
 import afd_15 from '../../assets/afd_15.webp';
+import afd_15_1 from '../../assets/afd_15.1.webp';
+import afd_15_2 from '../../assets/afd_15.2.webp';
+import afd_15_3 from '../../assets/afd_15.3.webp';
+import afd_15_4 from '../../assets/afd_15.4.webp';
+import afd_15_5 from '../../assets/afd_15.5.webp';
 import afd_16 from '../../assets/afd_16.webp';
 import afd_17 from '../../assets/afd_17.webp';
 import afd_18 from '../../assets/afd_18.webp';
@@ -61,11 +66,16 @@ export const Projects = ()=>{
 
                    <div className="p-6 rounded-xl border border-white/50 hover:-translate-y-1
                 hover:shadow-[0_2px_8px_rgba(59,130,2246, 0.1)] transition-all">
-                    <h3 className="text-xl font-bold mb-2">Android applikasjon</h3>
+                    <h3 className="text-xl font-bold mb-2">Androidapplikasjon</h3>
                     <p className="text-gray-400 mb-4">Regnespill for barn i første klasse. Vil lenke til koden på Github etter sensur. 
                     </p>
-                     <div className="grid grid-cols-1 mt-7 gap-6">
-                        <img src={afd_15} alt="profilbilde" className="w-50 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
+                     <div className="grid grid-cols-5 mt-7 gap-6">
+                        <img src={afd_15} alt="hovedbilde" className="w-50 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
+                        <img src={afd_15_1} alt="regnevindu" className="w-50 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
+                        <img src={afd_15_2} alt="riktig" className="w-50 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
+                        <img src={afd_15_3} alt="feil" className="w-50 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
+                        <img src={afd_15_4} alt="ferdig" className="w-50 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
+                        <img src={afd_15_5} alt="poeng" className="w-50 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
                         </div>
            
                 <div className="p-6">
