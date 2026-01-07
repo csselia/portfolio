@@ -21,6 +21,7 @@ import afd_15_5 from '../../assets/afd_15.5.webp';
 import afd_16 from '../../assets/afd_16.webp';
 import afd_17 from '../../assets/afd_17.webp';
 import afd_18 from '../../assets/afd_18.webp';
+import afd_20 from '../../assets/afd_20.webp';
 
 export const Projects = ()=>{
     return <section id="projects" className="min-h-screen
@@ -108,7 +109,7 @@ export const Projects = ()=>{
                     </p>
            
                 <div className="p-6">
-                    {["HTML", "CSS", "Javascript"].map((tech, key)=>(
+                    {["C#", "Typescript", "Tailwind CSS"].map((tech, key)=>(
                             <span 
                                     key = {key}
                                     className="bg-blue-500/10 text-[#e73aa7] hover:text-[#fec588] py-1 px-3 rounded-full text-sm
@@ -118,9 +119,35 @@ export const Projects = ()=>{
                     ))}
                 </div>
              </div>
-
-                  
              </div>
+
+
+                <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
+                  <div className="p-6 rounded-xl border border-white/50 hover:-translate-y-1
+                hover:shadow-[0_2px_8px_rgba(59,130,2246, 0.1)] transition-all">
+                    <h3 className="text-xl font-bold mb-2">Systemutvikling</h3>
+                    <p className="text-gray-400 mb-4">
+                        <p className="text-gray-400 mb-4">Ulike diagrammer tegnet under faget Systemutvikling
+                        </p>
+                        <div className="grid grid-cols-1 mt-7 gap-6">
+                        <img src={afd_20} alt="diagrammer" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
+                        </div>
+                    </p>
+           
+                <div className="p-6">
+                    {["Systemutvikling"].map((tech, key)=>(
+                            <span 
+                                    key = {key}
+                                    className="bg-blue-500/10 text-[#e73aa7] hover:text-[#fec588] py-1 px-3 rounded-full text-sm
+                                    hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,2246, 0.2)] transition">
+                                        {tech}
+                                    </span>
+                    ))}
+                </div>
+             </div>
+             </div>
+
+
 
 
                   <div className="p-6 rounded-xl border border-white/50 hover:-translate-y-1
