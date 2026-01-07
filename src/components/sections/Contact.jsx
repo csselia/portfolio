@@ -16,7 +16,7 @@ export const Contact = () =>{
                    <ul className="list-inside text-gray-300 space-y-2">
                    
                    <li className="mb-6"><strong>Email:</strong>
-                   <p>cecilia.26.di@gmail.com</p>
+                   <p>ceciliasprosjekter@gmail.com</p>
                     </li>
                       <li><a href="https://github.com/csselia" className="font-bold">Github: https://github.com/csselia</a>
                     </li>
