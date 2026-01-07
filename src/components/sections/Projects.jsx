@@ -69,7 +69,7 @@ export const Projects = ()=>{
                     <h3 className="text-xl font-bold mb-2">Androidapplikasjon</h3>
                     <p className="text-gray-400 mb-4">Regnespill for barn i første klasse. Vil lenke til koden på Github etter sensur. 
                     </p>
-                     <div className="grid grid-cols-3 mt-7 gap-2">
+                     <div className="grid grid-cols-3 mt-7 gap-1">
                         <img src={afd_15} alt="hovedbilde" className="w-50 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
                         <img src={afd_15_1} alt="regnevindu" className="w-50 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
                         <img src={afd_15_2} alt="riktig" className="w-50 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
@@ -100,7 +100,8 @@ export const Projects = ()=>{
                         <a href="https://www.linkedin.com/in/fridavhaf/" className="text-[#e73aa7] hover:text-[#fec588]"> Frida</a> ,
                         <a href="https://www.linkedin.com/in/sapphire-g-7295a5292/" className="text-[#e73aa7] hover:text-[#fec588]"> Sapphire</a> og
                         <a href="https://no.linkedin.com/in/jarle-kirkeby-614243380" className="text-[#e73aa7] hover:text-[#fec588]"> Jarle</a>
-                        
+                        <p className="text-gray-400 mb-4">Her kan barn spille gjennom eventyr og lage sine egne fortellinger. 
+                        </p>
                         <div className="grid grid-cols-1 mt-7 gap-6">
                         <img src={afd_8} alt="eventyr" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
                         </div>
