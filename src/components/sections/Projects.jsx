@@ -86,7 +86,7 @@ export const Projects = ()=>{
                 hover:shadow-[0_2px_8px_rgba(59,130,2246, 0.1)] transition-all">
                     <h3 className="text-xl font-bold mb-2">Eventyrapplikasjon for barn</h3>
                     <p className="text-gray-400 mb-4">
-                        <a href="https://github.com/Fridavhaf/Fairytailors-Fullstack/tree/master">Webapplikasjon (Høst 2025)</a> utført sammen med medstudentene 
+                        <a href="https://github.com/Fridavhaf/Fairytailors-Fullstack/tree/master" className="text-[#e73aa7] hover:text-[#fec588]">Webapplikasjon (Høst 2025)</a> utført sammen med medstudentene 
                         <a href="https://www.linkedin.com/in/fridavhaf/" className="text-[#e73aa7] hover:text-[#fec588]"> Frida</a> ,
                         <a href="https://www.linkedin.com/in/sapphire-g-7295a5292/" className="text-[#e73aa7] hover:text-[#fec588]"> Sapphire</a> og
                         <a href="https://no.linkedin.com/in/jarle-kirkeby-614243380" className="text-[#e73aa7] hover:text-[#fec588]"> Jarle</a>
