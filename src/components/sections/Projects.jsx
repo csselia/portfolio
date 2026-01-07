@@ -77,6 +77,7 @@ export const Projects = ()=>{
                                     </span>
                     ))}
                 </div>
+                    </div>
 
 
              <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
@@ -175,13 +176,6 @@ export const Projects = ()=>{
                     ))}
                 </div>
              </div>
-
-                    
-
-
-
-
-
 
             </div>
 
