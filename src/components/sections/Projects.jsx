@@ -6,6 +6,7 @@ import afd_4 from '../../assets/afd_4.webp';
 import afd_5 from '../../assets/afd_5.webp';
 import afd_6 from '../../assets/afd_6.webp';
 import afd_7 from '../../assets/afd_7.webp';
+import afd_8 from '../../assets/afd_8.webp';
 import afd_10 from '../../assets/afd_10.webp';
 import afd_11 from '../../assets/afd_11.webp';
 import afd_12 from '../../assets/afd_12.webp';
@@ -84,13 +85,14 @@ export const Projects = ()=>{
                   <div className="p-6 rounded-xl border border-white/50 hover:-translate-y-1
                 hover:shadow-[0_2px_8px_rgba(59,130,2246, 0.1)] transition-all">
                     <h3 className="text-xl font-bold mb-2">Eventyrapplikasjon for barn</h3>
-                    <p className="text-gray-400 mb-4">Webapplikasjon (Høst 2025) utført sammen med medstudentene 
+                    <p className="text-gray-400 mb-4">
+                        <a href="https://github.com/Fridavhaf/Fairytailors-Fullstack/tree/master">Webapplikasjon (Høst 2025)</a> utført sammen med medstudentene 
                         <a href="https://www.linkedin.com/in/fridavhaf/" className="text-[#e73aa7] hover:text-[#fec588]"> Frida</a> ,
                         <a href="https://www.linkedin.com/in/sapphire-g-7295a5292/" className="text-[#e73aa7] hover:text-[#fec588]"> Sapphire</a> og
                         <a href="https://no.linkedin.com/in/jarle-kirkeby-614243380" className="text-[#e73aa7] hover:text-[#fec588]"> Jarle</a>
                         
                         <div className="grid grid-cols-1 mt-7 gap-6">
-                        <img src={afd_14} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
+                        <img src={afd_8} alt="eventyr" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
                         </div>
                     </p>
            
