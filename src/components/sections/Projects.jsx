@@ -77,6 +77,34 @@ export const Projects = ()=>{
                                     </span>
                     ))}
                 </div>
+
+
+             <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
+                  <div className="p-6 rounded-xl border border-white/50 hover:-translate-y-1
+                hover:shadow-[0_2px_8px_rgba(59,130,2246, 0.1)] transition-all">
+                    <h3 className="text-xl font-bold mb-2">Eventyrapplikasjon for barn</h3>
+                    <p className="text-gray-400 mb-4">Webapplikasjon (Høst 2025) utført sammen med medstudentene 
+                        <a href="https://www.linkedin.com/in/fridavhaf/" className="text-[#e73aa7] hover:text-[#fec588]"> Frida</a> ,
+                        <a href="https://www.linkedin.com/in/sapphire-g-7295a5292/" className="text-[#e73aa7] hover:text-[#fec588]"> Sapphire</a> og
+                        <a href="https://no.linkedin.com/in/jarle-kirkeby-614243380" className="text-[#e73aa7] hover:text-[#fec588]"> Jarle</a>
+                        
+                        <div className="grid grid-cols-1 mt-7 gap-6">
+                        <img src={afd_14} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
+                        </div>
+                    </p>
+           
+                <div className="p-6">
+                    {["HTML", "CSS", "Javascript"].map((tech, key)=>(
+                            <span 
+                                    key = {key}
+                                    className="bg-blue-500/10 text-[#e73aa7] hover:text-[#fec588] py-1 px-3 rounded-full text-sm
+                                    hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,2246, 0.2)] transition">
+                                        {tech}
+                                    </span>
+                    ))}
+                </div>
+             </div>
+
                   
              </div>
 
@@ -88,22 +116,22 @@ export const Projects = ()=>{
                     </p>
 
                     <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
-                        <img src={afd_1} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
-                        <img src={afd_3} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
-                           <img src={afd_2} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
-                              <img src={afd_4} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
-                                <img src={afd_5} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
-                                <img src={afd_7} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
-                                <img src={afd_6} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
-                                <img src={afd_11} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
-                                <img src={afd_12} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
+                        <img src={afd_1} alt="postlevering" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
+                        <img src={afd_3} alt="informasjon til alle kunder" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
+                           <img src={afd_2} alt="pakke og levering" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
+                              <img src={afd_4} alt="kommunikasjon" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
+                                <img src={afd_5} alt="kontakt" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
+                                <img src={afd_7} alt="solkrem på ulik hud" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
+                                <img src={afd_6} alt="samhold i båt" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
+                                <img src={afd_11} alt="nyhetsbrev" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
+                                <img src={afd_12} alt="teknologi" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
                             
                         </div>
 
 
                         <div className="grid grid-cols-2 mt-7 gap-6">
-                        <img src={afd_10} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
-                          <img src={afd_13} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
+                        <img src={afd_10} alt="utforsker blodpropp" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
+                          <img src={afd_13} alt="blodpropp" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
                      
  
                         </div>
@@ -129,9 +157,9 @@ export const Projects = ()=>{
                     </p>
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                        <img src={afd_16} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
-                        <img src={afd_17} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
-                           <img src={afd_18} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
+                        <img src={afd_16} alt="mannpuster" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
+                        <img src={afd_17} alt="bjorn" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
+                           <img src={afd_18} alt="bryllup" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
                         </div>
 
 
