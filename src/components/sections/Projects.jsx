@@ -108,6 +108,16 @@ export const Projects = ()=>{
                         </div>
                     </p>
            
+                <div className="p-6">
+                    {["C#", "Typescript", "Tailwind CSS"].map((tech, key)=>(
+                            <span 
+                                    key = {key}
+                                    className="bg-blue-500/10 text-[#e73aa7] hover:text-[#fec588] py-1 px-3 rounded-full text-sm
+                                    hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,2246, 0.2)] transition">
+                                        {tech}
+                                    </span>
+                    ))}
+                </div>
              </div>
              </div>
 
@@ -124,6 +134,16 @@ export const Projects = ()=>{
                         </div>
                     </p>
            
+                <div className="p-6">
+                    {["Systemutvikling"].map((tech, key)=>(
+                            <span 
+                                    key = {key}
+                                    className="bg-blue-500/10 text-[#e73aa7] hover:text-[#fec588] py-1 px-3 rounded-full text-sm
+                                    hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,2246, 0.2)] transition">
+                                        {tech}
+                                    </span>
+                    ))}
+                </div>
              </div>
              </div>
 
