@@ -69,7 +69,7 @@ export const Projects = ()=>{
                     <h3 className="text-xl font-bold mb-2">Androidapplikasjon</h3>
                     <p className="text-gray-400 mb-4">Regnespill for barn i første klasse. Vil lenke til koden på Github etter sensur. 
                     </p>
-                     <div className="grid grid-cols-3 mt-7 gap-6">
+                     <div className="grid grid-cols-3 mt-7 gap-2">
                         <img src={afd_15} alt="hovedbilde" className="w-50 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
                         <img src={afd_15_1} alt="regnevindu" className="w-50 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
                         <img src={afd_15_2} alt="riktig" className="w-50 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
