@@ -10,7 +10,7 @@ export const Home = ()=>{
         leading-tight">Hei! Jeg heter Cecilia</h1>
 
         <p className="text-grey-400 text-lg mb-8 mx-auto"> 
-            UX-fokusert utvikler, 3.årsstudent Informasjonsteknologi
+            UX-fokusert utvikler | 3.årsstudent Informasjonsteknologi
         </p>
 
             <div className="flex justify-center space-x-4">
