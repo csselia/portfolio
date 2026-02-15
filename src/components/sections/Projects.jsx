@@ -43,8 +43,9 @@ export const Projects = ()=>{
                     <p className="text-gray-400 mb-4">Praktisk IT-prosjekt (Vår 2025) utført sammen med medstudentene 
                         <a href="https://www.linkedin.com/in/fridavhaf/" className="text-[#e73aa7] hover:text-[#fec588]"> Frida</a> og 
                         <a href="https://www.linkedin.com/in/sapphire-g-7295a5292/" className="text-[#e73aa7] hover:text-[#fec588]"> Sapphire.</a>
-                        <p>Utviklet en nettside for en nyetablert frisørsalong,</p>
-                        <a href="https://syvendeharstudio.no/"  className="text-[#e73aa7] hover:text-[#fec588]">S7vende hårstudio</a>
+                        <p>Utviklet en nettside for en nyetablert frisørsalong, 
+                        <a href="https://syvendeharstudio.no/"  className="text-[#e73aa7] hover:text-[#fec588]"> S7vende hårstudio.</a></p>
+                        <p>Lenke til <a href="https://github.com/ehtaxhair/Project-Cutting-Edge-" className="text-[#e73aa7]">Github-repo</a></p>
                         
                         <div className="grid grid-cols-1 mt-7 gap-6">
                         <img src={afd_14} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
@@ -68,7 +69,8 @@ export const Projects = ()=>{
                    <div className="p-6 rounded-xl border border-white/50 hover:-translate-y-1
                 hover:shadow-[0_2px_8px_rgba(59,130,2246, 0.1)] transition-all">
                     <h3 className="text-xl font-bold mb-2">Androidapplikasjon</h3>
-                    <p className="text-gray-400 mb-4">Regnespill for barn i første klasse. Vil lenke til koden på Github etter sensur. 
+                    <p className="text-gray-400 mb-4">Regnespill for barn i første klasse. Applikasjonen er utviklet i Kotlin med Jetpack Compose, og har som mål å gjøre læring av matematikk morsomt og engasjerende for barn.        </p>
+                         <p>Lenke til <a href="https://github.com/csselia/AlvinMattespill" className="text-[#e73aa7]">Github-repo</a> 
                     </p>
                      <div className="grid grid-cols-3 mt-7 gap-1">
                         <img src={afd_15} alt="hovedbilde" className="w-50 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
@@ -97,11 +99,12 @@ export const Projects = ()=>{
                 hover:shadow-[0_2px_8px_rgba(59,130,2246, 0.1)] transition-all">
                     <h3 className="text-xl font-bold mb-2">Eventyrapplikasjon for barn</h3>
                     <p className="text-gray-400 mb-4">
-                        <a href="https://github.com/Fridavhaf/Fairytailors-Fullstack/tree/master" className="text-[#e73aa7] hover:text-[#fec588]">Webapplikasjon (Høst 2025)</a> utført sammen med medstudentene 
+                        Webapplikasjon utført sammen med medstudentene 
                         <a href="https://www.linkedin.com/in/fridavhaf/" className="text-[#e73aa7] hover:text-[#fec588]"> Frida</a> ,
                         <a href="https://www.linkedin.com/in/sapphire-g-7295a5292/" className="text-[#e73aa7] hover:text-[#fec588]"> Sapphire</a> og
                         <a href="https://no.linkedin.com/in/jarle-kirkeby-614243380" className="text-[#e73aa7] hover:text-[#fec588]"> Jarle</a>
-                        <p className="text-gray-400 mb-4">Her kan barn spille gjennom eventyr og lage sine egne fortellinger. 
+                        <p className="text-gray-400 mb-4">Her kan barn spille gjennom eventyr og lage sine egne fortellinger. I dette prosjektet jobbet jeg med frontend (React, Typescript, Tailwind CSS).</p>
+                            <p>Lenke til <a href="https://github.com/Fridavhaf/Fairytailors-Fullstack" className="text-[#e73aa7]">Github-repo</a>
                         </p>
                         <div className="grid grid-cols-1 mt-7 gap-6">
                         <img src={afd_8} alt="eventyr" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>

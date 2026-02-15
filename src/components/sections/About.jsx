@@ -145,11 +145,11 @@ export const About = ()=>{
                      </div>
                 
                      <div className="grid grid-cols-1 md:grid-cols-1 gap-6 mt-8"></div>
-                  <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+                  <div className="p-6 rounded-xl border-white/10 border">
                     <h3 className="text-xl font-bold mb-4 text-[#fec588]">Arbeidserfaring</h3>
     
                     <div className="space-y-4 text-gray-300">
-                        <div className="border border-white/50 m-3 p-2">
+                        <div className="border border-white/50 m-3 p-2 hover:-translate-y-1 transition-all">
                             <h4 className="font-semibold">Ditt Apotek Strømmen/ApotekForDeg</h4>
                                   <span class="block text-[#e73aa7]">Apotektekniker</span>
                                  <span class="block text-gray-500">Jan 2024 - d.d</span>
@@ -157,7 +157,7 @@ export const About = ()=>{
                         </div>
 
                         
-                            <div className="border border-white/50 m-3 p-2">
+                            <div className="border border-white/50 m-3 p-2 hover:-translate-y-1 transition-all">
                             <h4 className="font-semibold">ApotekForDeg</h4>
                                   <span class="block text-[#e73aa7]">Skribent og illustratør</span>
                                  <span class="block text-gray-500">Mar 2020 - Apr 2021</span>
@@ -166,7 +166,7 @@ export const About = ()=>{
 
 
                             
-                            <div className="border border-white/50 m-3 p-2">
+                            <div className="border border-white/50 m-3 p-2 hover:-translate-y-1 transition-all">
                             <h4 className="font-semibold">Innovacare AS</h4>
                                   <span class="block text-[#e73aa7]">Designer</span>
                                  <span class="block text-gray-500">Apr 2017 - Feb 2021</span>
@@ -176,7 +176,7 @@ export const About = ()=>{
 
                         
                         
-                            <div className="border border-white/50 m-3 p-2">
+                            <div className="border border-white/50 m-3 p-2 hover:-translate-y-1 transition-all">
                             <h4 className="font-semibold">Ditt Apotek Paleet</h4>
                                   <span class="block text-[#e73aa7]">Apotektekniker</span>
                                  <span class="block text-gray-500">Sep 2018 - Des 2023</span>
@@ -184,7 +184,7 @@ export const About = ()=>{
                         </div>
                         
                         
-                            <div className="border border-white/50 m-3 p-2">
+                            <div className="border border-white/50 m-3 p-2 hover:-translate-y-1 transition-all">
                             <h4 className="font-semibold">Ditt Apotek Paleet</h4>
                                   <span class="block text-[#e73aa7]">Reseptarfarmasøyt</span>
                                  <span class="block text-gray-500">Jan 2017 - Sep 2018</span>
@@ -192,7 +192,7 @@ export const About = ()=>{
                         </div>
 
                           
-                            <div className="border border-white/50 m-3 p-2">
+                            <div className="border border-white/50 m-3 p-2 hover:-translate-y-1 transition-all">
                             <h4 className="font-semibold">Apotek 1 Arkaden</h4>
                                   <span class="block text-[#e73aa7]">Reseptarfarmasøyt</span>
                                  <span class="block text-gray-500">Sep 2016 - Jan 2017</span>
@@ -200,7 +200,7 @@ export const About = ()=>{
                         </div>
                         
                           
-                            <div className="border border-white/50 m-3 p-2">
+                            <div className="border border-white/50 m-3 p-2 hover:-translate-y-1 transition-all">
                             <h4 className="font-semibold">Apotek 1 Oslo City</h4>
                                   <span class="block text-[#e73aa7]">Reseptarfarmasøyt</span>
                                  <span class="block text-gray-500">Aug 2014 - Sep 2016</span>
@@ -210,7 +210,7 @@ export const About = ()=>{
 
                         
                          
-                            <div className="border border-white/50 m-3 p-2">
+                            <div className="border border-white/50 m-3 p-2 hover:-translate-y-1 transition-all">
                             <h4 className="font-semibold">Apotek 1 Bjerke</h4>
                                   <span class="block text-[#e73aa7]">Apotekmedarbeider - tilkalling</span>
                                  <span class="block text-gray-500">Des 2013 - Jun 2014</span>
@@ -219,7 +219,7 @@ export const About = ()=>{
                         </div>
 
                            
-                            <div className="border border-white/50 m-3 p-2">
+                            <div className="border border-white/50 m-3 p-2 hover:-translate-y-1 transition-all">
                             <h4 className="font-semibold">Oslo Tours AS</h4>
                                   <span class="block text-[#e73aa7]">Billettselger</span>
                                  <span class="block text-gray-500">Jun 2008 - Aug 2008</span>
