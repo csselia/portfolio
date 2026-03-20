@@ -28,7 +28,7 @@ export const About = ()=>{
                     Mitt navn er Cecilia og jeg har lang erfaring fra apotekbransjen der jeg har opparbeidet meg god erfaring innen kundeservice. Tok initiativ til 
                     designarbeid for apoteket i fritiden, og det ble etterhvert inkludert i stillingsansvaret. Under pandemien fikk 
                     jeg jobbe som skribent og designer på fulltid, og erfaringen styrket min interesse for feltet. Da jeg senere 
-                    gikk tilbake til apotekarbeid, innså jeg at det var design, teknologi og digitale løsninger jeg ville drive med og søke meg inn på IT-studiet.
+                    gikk tilbake til apotekarbeid, innså jeg at det var design, teknologi og digitale løsninger jeg ville drive med og søkte meg inn på IT-studiet.
                 </p>
                 <br/>
                 <p>
