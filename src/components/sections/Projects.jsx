@@ -133,7 +133,7 @@ export const Projects = ()=>{
                     <h3 className="text-xl font-bold mb-2">Webapplikasjon for glemt p-pille av merket Mercilon</h3>
                     <p className="text-gray-400 mb-4">
                         <p className="text-gray-400 mb-4">Laget for gøy for å sysle litt med React og Typescript, og fordi jeg får spørsmål om dette temaet hele tiden. 
-                            Koden på <a href="https://github.com/csselia/merci">Github</a>
+                            Koden på <a href="https://github.com/csselia/merci" className="text-[#e73aa7] hover:text-[#fec588]">Github</a>
                         </p>
                         <div className="grid grid-cols-1 mt-7 gap-6">
                         <img src={afd_21} alt="diagrammer" className="rounded-2xl mx-auto hover:-translate-y-1 transition"/>
