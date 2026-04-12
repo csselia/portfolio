@@ -135,7 +135,7 @@ export const Projects = ()=>{
                         <p className="text-gray-400 mb-4">Laget for gøy for å sysle litt med React og Typescript, og fordi jeg får spørsmål om dette temaet hele tiden. 
                         </p>
                         <div className="grid grid-cols-1 mt-7 gap-6">
-                        <img src={afd_21} alt="diagrammer" className="w-300 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
+                        <img src={afd_21} alt="diagrammer" className="rounded-2xl mx-auto hover:-translate-y-1 transition"/>
                         </div>
                     </p>
            
