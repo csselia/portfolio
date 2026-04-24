@@ -17,9 +17,14 @@ export const Contact = () =>{
                    
                    <li className="mb-6"><strong>Email:</strong>
                    <p>ceciliasprosjekter@gmail.com</p>
+                   <ul></ul>
+                     </li>
+                      <li><a href="https://www.linkedin.com/in/csselia/" className="font-bold text-[#e73aa7] hover:text-[#fec588]">LinkedIn</a>
                     </li>
-                      <li><a href="https://github.com/csselia" className="font-bold">Github: https://github.com/csselia</a>
+
+                      <li><a href="https://github.com/csselia" className="font-bold text-[#e73aa7] hover:text-[#fec588]">Github</a>
                     </li>
+
                 </ul>
 
             </div>
