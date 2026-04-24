@@ -48,9 +48,22 @@ export const Projects = ()=>{
                         <div className="grid grid-cols-1 mt-7 gap-6">
                         <img src={afd_23} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
                         <img src={afd_22} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
-                        </div>
+                         </div>
                     </p>
+                       <div className="p-6">
+                    {["ServiceNow", "Javascript"].map((tech, key)=>(
+                            <span 
+                                    key = {key}
+                                    className="bg-blue-500/10 text-[#e73aa7] hover:text-[#fec588] py-1 px-3 rounded-full text-sm
+                                    hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,2246, 0.2)] transition">
+                                        {tech}
+                                    </span>
+                    ))}
+                </div>
                     </div>
+                   
+               
+      
               
 
                   <div className="p-6 rounded-xl border border-white/50 hover:-translate-y-1
