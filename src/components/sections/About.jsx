@@ -31,7 +31,10 @@ export const About = ()=>{
                     gikk tilbake til apotekarbeid, innså jeg at det var design, teknologi og digitale løsninger jeg ville drive med og søkte meg inn på IT-studiet.
                 </p>
                 <br/>
-                
+                <p>
+                    Er nå 3.årsstudent i informasjonsteknologi på Oslomet og jobber deltid i apotek. 
+                </p>
+
                 <h3 className="font-bold mb-8 mt-8 text-[#fec588]">Utvalgte IT-kunnskaper:</h3>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
