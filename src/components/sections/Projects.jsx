@@ -23,6 +23,8 @@ import afd_17 from '../../assets/afd_17.webp';
 import afd_18 from '../../assets/afd_18.webp';
 import afd_20 from '../../assets/afd_20.webp';
 import afd_21 from '../../assets/afd_21.webp';
+import afd_22 from '../../assets/afd_22.webp';
+import afd_23 from '../../assets/afd_23.webp';
 
 export const Projects = ()=>{
     return <section id="projects" className="min-h-screen
@@ -36,6 +38,19 @@ export const Projects = ()=>{
             
     
             <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
+
+            <div className="p-6 rounded-xl border border-white/50 hover:-translate-y-1
+                hover:shadow-[0_2px_8px_rgba(59,130,2246, 0.1)] transition-all">
+                    <h3 className="text-xl font-bold mb-2">Hackaton hos KPMG</h3>
+                    <p className="text-gray-400 mb-4">Deltok på "Build an App in a Weekend" arrangert av KPMG og ServiceNow. Casen vi valgte var å utvikle en applikasjon som bruker 
+                      en AI-agent til å automatisere manuelt skjemaarbeid for saksbehandlere hos Direktoratet for strålevern og atomsikkerhet (DSA). I forkant av prosjektet gjennomgikk vi 3 webinarer om ServiceNow-funksjoner. 
+                      Dette var et gruppeprosjekt, og min oppgave var å sørge for at AI-agenten hentet riktig data fra tabellene slik at den kunne sammenligne det med kravspesifikasjoner og lande på om innsendt materiale skulle godkjennes eller ikke.
+                        <div className="grid grid-cols-1 mt-7 gap-6">
+                        <img src={afd_23} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
+                        <img src={afd_22} alt="profilbilde" className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"/>
+                        </div>
+                    </p>
+                    </div>
               
 
                   <div className="p-6 rounded-xl border border-white/50 hover:-translate-y-1
