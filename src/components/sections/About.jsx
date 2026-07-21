@@ -163,7 +163,7 @@ export const About = () => {
                 Ditt Apotek Strømmen/ApotekForDeg
               </h4>
               <span class="block text-[#e73aa7]">Apotektekniker</span>
-              <span class="block text-gray-500">Jan 2024 - d.d</span>
+              <span class="block text-gray-500">Jan 2024 - Mai 2026</span>
               <p class="text-pink-200">Håndtering av resept & ordre</p>
             </div>
 
