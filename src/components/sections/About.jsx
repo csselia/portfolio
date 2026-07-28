@@ -139,7 +139,7 @@ export const About = () => {
             <ul className="list-disc list-inside text-gray-300 space-y-2">
               <li>
                 <strong>Bachelor i Informasjonsteknologi</strong>
-                <span class="block text-gray-500">2023 - </span>
+                <span class="block text-gray-500">2023 - 2026</span>
               </li>
               <li>
                 <strong>Bachelor i Farmasi</strong>
