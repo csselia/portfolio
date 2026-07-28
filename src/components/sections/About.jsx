@@ -62,7 +62,7 @@ export const About = () => {
           <br />
 
           <p>
-            • Jeg blir ofte beskrevet som kreativ, hardtarbeidende og
+            • Som person beskrives jeg ofte som kreativ, hardtarbeidende og
             ansvarsfull, og trives med å dele kunnskap og bidra til et
             inkluderende arbeidsmiljø.
           </p>
