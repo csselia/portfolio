@@ -39,19 +39,32 @@ export const About = () => {
         {/*Når det hovres løftes elementet litt opp, -y 1 flytter elementet litt opp, transition all styrer at alt skal animeres*/}
         <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
           <p className="text-gray-300 mb-6">
-            Mitt navn er Cecilia og jeg har lang erfaring fra apotekbransjen der
-            jeg har opparbeidet meg god erfaring innen kundeservice. Tok
-            initiativ til designarbeid for apoteket i fritiden, og det ble
-            etterhvert inkludert i stillingsansvaret. Under pandemien fikk jeg
-            jobbe som skribent og designer på fulltid, og erfaringen styrket min
-            interesse for feltet. Da jeg senere gikk tilbake til apotekarbeid,
-            innså jeg at det var design, teknologi og digitale løsninger jeg
-            ville drive med og søkte meg inn på IT-studiet.
+            • Bachelor i IT med kompetanse innen fullstack-utvikling og
+            lidenskap for programmering og universell utforming.
           </p>
+
+          <br />
+
+          <p>
+            • Gjennom mange år i apotekbransjen har jeg utviklet gode
+            ferdigheter innen kundeservice og kommunikasjon, der empati og
+            forståelse for menneskers ulike behov står sentralt.
+          </p>
+
           <br />
           <p>
-            Er nå 3.årsstudent i informasjonsteknologi på Oslomet og jobber
-            deltid i apotek.
+            • Jeg tok initiativ til å sette idéer ut i praksis og bidro i flere
+            av tidligere arbeidsgivers digitale satsinger, blant annet med
+            nettbutikkutvikling, kampanjer, grafisk design og illustrasjon samt
+            fag- og produkttekster.
+          </p>
+
+          <br />
+
+          <p>
+            • Jeg blir ofte beskrevet som kreativ, hardtarbeidende og
+            ansvarsfull, og trives med å dele kunnskap og bidra til et
+            inkluderende arbeidsmiljø.
           </p>
 
           <h3 className="font-bold mb-8 mt-8 text-[#fec588]">

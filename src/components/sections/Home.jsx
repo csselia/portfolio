@@ -17,7 +17,7 @@ export const Home = () => {
           </h1>
 
           <p className="text-grey-400 text-lg mb-8 mx-auto">
-            UX-fokusert utvikler | 3.årsstudent Informasjonsteknologi
+           Fullstack-utvikler med lidenskap for programmering og universell utforming
           </p>
 
           <div className="flex justify-center space-x-4">
