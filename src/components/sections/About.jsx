@@ -147,21 +147,6 @@ export const About = () => {
               </li>
             </ul>
           </div>
-
-          <div className="p-6 rounded-xl border border-white/10 border hover:-translate-y-1 transition-all">
-            <h3 className="text-xl font-bold mb-4 text-[#fec588]">
-              Nøkkelkvalifikasjoner
-            </h3>
-            <ul className="text-gray-300 space-y-2">
-              <li>Flere års erfaring med kundeservice.</li>
-              <li>Kreativ og løsningsorientert.</li>
-              <li>
-                Samarbeider bra i team, men jobber også strukturert og
-                selvstendig.
-              </li>
-              <li>Liker å ta initiativ og sette idéer ut i praksis</li>
-            </ul>
-          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-1 gap-6 mt-8"></div>
