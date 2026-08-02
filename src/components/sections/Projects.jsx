@@ -25,6 +25,8 @@ import afd_21 from "../../assets/afd_21.webp";
 import afd_22 from "../../assets/afd_22.webp";
 import afd_23 from "../../assets/afd_23.webp";
 import afd_24 from "../../assets/afd_24.webp";
+import afd_25 from "../../assets/afd_25.webp";
+import afd_26 from "../../assets/afd_26.webp";
 
 export const Projects = () => {
   return (
@@ -41,8 +43,55 @@ export const Projects = () => {
         >
           Mine prosjekter
         </h2>
-
         <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
+          <div
+            className="p-6 rounded-xl border border-white/50 hover:-translate-y-1
+                hover:shadow-[0_2px_8px_rgba(59,130,2246, 0.1)] transition-all"
+          >
+            <h3 className="text-xl font-bold mb-2">NorgeVM - Billettovervåker</h3>
+            <p className="text-gray-400 mb-4">
+              Lite prosjekt som ble laget for å holde øye med siden til
+              Fotballfesten. Applikasjonen henter innholdet på nettsiden som
+              tekst og gjør det til små bokstaver. Det sjekkes for en bestemt
+              tekst som indikerer at booking er åpen for fotballbilletter. Den
+              spesifikke teksten ble valgt på bakgrunn av Fotballfestens side
+              for Kongens gate. Applikasjonen sender varsling på Discord via en
+              webhook. Det sendes 5 Discord-varsler med 5 sekunders mellomrom.
+              Koden
+                  på{" "}
+                  <a
+                    href="https://github.com/csselia/NorgeVM"
+                    className="text-[#e73aa7] hover:text-[#fec588]"
+                  >
+                    Github
+                  </a>
+            
+              <div className="grid grid-cols-1 mt-7 gap-6">
+                <img
+                  src={afd_25}
+                  alt="profilbilde"
+                  className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"
+                />
+                <img
+                  src={afd_26}
+                  alt="profilbilde"
+                  className="w-400 rounded-2xl mx-auto hover:-translate-y-1 transition"
+                />
+              </div>
+            </p>
+            <div className="p-6">
+              {["Python"].map((tech, key) => (
+                <span
+                  key={key}
+                  className="bg-blue-500/10 text-[#e73aa7] hover:text-[#fec588] py-1 px-3 rounded-full text-sm
+                                    hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,2246, 0.2)] transition"
+                >
+                  {tech}
+                </span>
+              ))}
+            </div>
+          </div>
+
           <div
             className="p-6 rounded-xl border border-white/50 hover:-translate-y-1
                 hover:shadow-[0_2px_8px_rgba(59,130,2246, 0.1)] transition-all"
@@ -57,8 +106,7 @@ export const Projects = () => {
               ServiceNow-funksjoner. Dette var et gruppeprosjekt, og min oppgave
               var å sørge for at AI-agenten hentet riktig data fra tabellene
               slik at den kunne sammenligne det med kravspesifikasjoner og lande
-              på om innsendt materiale skulle godkjennes eller ikke. Vi endte
-              opp på 2.plass.
+              på om innsendt materiale skulle godkjennes eller ikke.
               <div className="grid grid-cols-1 mt-7 gap-6">
                 <img
                   src={afd_23}
@@ -90,7 +138,7 @@ export const Projects = () => {
                 hover:shadow-[0_2px_8px_rgba(59,130,2246, 0.1)] transition-all"
           >
             <h3 className="text-xl font-bold mb-2">
-              Pågående bacheloroppgave hos SaveOCEAN
+              Bacheloroppgave hos SaveOCEAN
             </h3>
             <p className="text-gray-400 mb-4">
               Utvikling av webapplikasjon: Spillifisert e-læringsportal
@@ -336,8 +384,8 @@ export const Projects = () => {
               </h3>
               <p className="text-gray-400 mb-4">
                 <p className="text-gray-400 mb-4">
-                  Laget for gøy for å sysle litt med React og Typescript, og
-                  fordi jeg får spørsmål om dette temaet hele tiden. Koden på{" "}
+                  Laget for gøy for å sysle litt med React og Typescript. Koden
+                  på{" "}
                   <a
                     href="https://github.com/csselia/merci"
                     className="text-[#e73aa7] hover:text-[#fec588]"
